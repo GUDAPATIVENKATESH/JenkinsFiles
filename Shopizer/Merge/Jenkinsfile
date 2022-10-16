@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'JDK-11'
+        label 'DEB'
     }
     triggers { 
         cron('30 17 * * 1-5') 
